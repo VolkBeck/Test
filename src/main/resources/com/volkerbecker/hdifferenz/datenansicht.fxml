@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.volkerbecker.hdifferenz.HoehendifferenzController">
+   <children>
+      <TableView fx:id="tableIst" layoutX="544.0" layoutY="21.0" prefHeight="423.0" prefWidth="505.0" AnchorPane.topAnchor="50.0" />
+      <TableView fx:id="tableSoll" layoutX="14.0" layoutY="56.0" prefHeight="423.0" prefWidth="450.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="20.0" layoutY="76.0" prefHeight="17.0" prefWidth="450.0" text="Textdatei mit allen A und C Punkten" AnchorPane.topAnchor="20.0" />
+      <Label layoutX="544.0" layoutY="76.0" prefHeight="17.0" prefWidth="505.0" text="Textdatei mit allen abgesteckten Punkten um Höhendifferenz zu berechnen" AnchorPane.topAnchor="20.0" />
+      <Label fx:id="labelDrop" alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="581.0" prefHeight="154.0" prefWidth="208.0" text="loss die PDF falle \n odder beide textdateie" textAlignment="CENTER" textFill="#212022" AnchorPane.leftAnchor="20.0" />
+      <TextField fx:id="textSuche" layoutX="14.0" layoutY="556.0" prefHeight="26.0" prefWidth="208.0" promptText="Was suchst Du..." AnchorPane.leftAnchor="20.0" />
+      <Label layoutX="20.0" layoutY="530.0" prefHeight="18.0" prefWidth="208.0" text="Stationsnummer eingeben: + ENTER" />
+      <ImageView fx:id="myImageView" fitHeight="190.0" fitWidth="253.0" layoutX="875.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="testbtn" layoutX="518.0" layoutY="518.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
